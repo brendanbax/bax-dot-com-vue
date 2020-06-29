@@ -29,6 +29,13 @@ export default {
       }
       this.theme = this.themeBank[currentTheme]
     }
+  },
+  mounted: {
+    generateTheme() {
+      // TODO: make this
+      // generate a random number between 0 and themeBank.length
+      // set theme to that value
+    }
   }
 }
 </script>
