@@ -7,10 +7,16 @@
 
 <script>
   export default {
-    name: 'NavBar'
+    name: 'NavBar',
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+  nav {
+    height: var(--nav-height);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 </style>
