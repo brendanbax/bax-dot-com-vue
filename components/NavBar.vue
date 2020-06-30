@@ -4,8 +4,8 @@
       <Logo class="nav-logo"/>
     </div>
     <span>
-      <nuxt-link class="nav-link" to="/">About</nuxt-link>
-      <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
+      <nuxt-link class="nav-link" active-class="link-active" to="/">About</nuxt-link>
+      <nuxt-link class="nav-link" active-class="link-active" to="/projects">Projects</nuxt-link>
     </span>
   </nav>
 </template>
@@ -73,6 +73,7 @@ nav {
   font-family: var(--font);
   font-size: .75rem;
   text-transform: uppercase;
+  text-align: center;
   opacity: 0;
 }
 .logo-container:hover::after {
@@ -87,12 +88,44 @@ nav {
   fill: var(--t-lt);
 }
 .nav-link {
+  position: relative;
+  z-index: 1;
   color: var(--t-lt);
   font-family: var(--font);
   text-decoration: none;
   font-size: 1rem;
+  transition: color 200ms;
+}
+.link-active {
+  border-bottom: 1px solid var(--t-lt);
 }
 .nav-link:first-child {
   margin-right: 2rem;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--t-dk);
+  transition: color 200ms;
+  border-bottom: none;
+}
+.nav-link::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -1rem;
+  bottom: -.5rem;
+  width: calc(100% + 2rem);
+  height: 0;
+  background: var(--t-brand-lt);
+  border-radius: 0;
+  transition: height 200ms, border-radius 200ms;
+}
+.nav-link:hover::before,
+.nav-link:focus::before {
+  height: calc(100% + 1rem);
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem 1rem -.25rem rgba(0,0,0,0.5),
+              .125rem .125rem .5rem rgba(0,0,0,0.2);
+  transition: height 240ms, border-radius 200ms 300ms, box-shadow 200ms 300ms;
 }
 </style>
