@@ -30,9 +30,10 @@ export default {
     }
   },
   mounted() {
-    // TODO: make this
-    // generate a random number between 0 and themeBank.length
-    // set theme to that value
+    // On page load check local storage for a theme
+    // If theme -> update this.theme
+    // else -> generate a random number and pick a theme...
+    // unless using JS I can detect preferred color (light / dark) then use that...
     console.log('mounted');
   }
 }
@@ -133,5 +134,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 .dynamic {
   font-family: var(--font);
+  background-color: var(--bg);
+  color: var(--fg);
 }
 </style>
