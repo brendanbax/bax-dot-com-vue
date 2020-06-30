@@ -12,7 +12,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  css: [],
+  css: ['~/assets/animation.css'],
   plugins: [],
   components: true,
   buildModules: [],

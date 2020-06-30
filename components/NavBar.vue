@@ -1,5 +1,5 @@
 <template>
-  <nav :class="solid ? 'f-dk' : ''">
+  <nav :class="solid || fillNav ? 'solid' : ''">
     <div class="logo-container" @click="swap" tabindex="0">
       <Logo class="nav-logo"/>
     </div>
@@ -23,16 +23,22 @@
         solid: false,
       }
     },
-    created () {
-      if(process.client) {
-        window.addEventListener('scroll', this.handleScroll);
-        if (window.location.pathname.includes('projects')) {
-          this.solid = true;
+    computed: {
+      fillNav() {
+        if (this.$route.path.includes('projects')) {
+          return true;
+        } else {
+          return false;
         }
       }
     },
+    created () {
+      if (this.$route.path === '/' && process.client) {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+    },
     destroyed () {
-      if(process.client) {
+      if (this.$route.path === '/' && process.client) {
         window.removeEventListener('scroll', this.handleScroll);
       }
     },
@@ -108,6 +114,12 @@ nav {
   z-index: 0;
   opacity: 1;
   transition: left 200ms 500ms, opacity 200ms 500ms;
+}
+.solid {
+  background-color: var(--t-dk);
+}
+.solid > .logo-container {
+  border: 2px solid var(--t-lt);
 }
 .nav-logo {
   width: 1.5rem;

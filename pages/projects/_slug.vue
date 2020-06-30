@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <h1>
       {{ post.title }}
     </h1>

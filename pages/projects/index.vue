@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <h1>Projects</h1>
     <div v-for="post in posts" :key="post.slug">
       <h3>
