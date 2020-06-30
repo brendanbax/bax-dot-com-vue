@@ -65,7 +65,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 1000;
   padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;

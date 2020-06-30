@@ -162,4 +162,33 @@ h1, h2, h3, h4, h5, h6, p, a {
   line-height: 2rem;
   max-width: 64ch;
 }
+.link-body {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--fg);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  z-index: 1;
+}
+.link-body:hover {
+  color: var(--t-dk);
+}
+.link-body::before {
+  content: '';
+  position: absolute;
+  left: -.375rem;
+  right: -.375rem;
+  bottom: .125rem;
+  height: 2px;
+  background: var(--t-brand);
+  z-index: -1;
+  transition: height 240ms, border-radius 200ms;
+}
+.link-body:hover::before {
+  height: 1.875rem;
+  border-radius: 2rem;
+  transition: height 200ms, border-radius 180ms 120ms;
+}
 </style>

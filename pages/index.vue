@@ -1,11 +1,13 @@
 <template>
   <div>
     <IndexHero />
-    <div id="intro" class="home-section">
-      <h2 class="txt-section">Hey I'm Brendan</h2>
-      <p class="txt-body">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work on various projects.  I post my WIPs and POCs on [Dribbble]() and [Codepen]() so be sure to follow me there.  Occasionally I blog on Medium, as well.</p>
-      <p class="txt-body">Thanks for stopping by!</p>
-      <p>-Brendan</p>
+    <div class="home-section">
+      <div id="intro">
+        <h2 class="txt-section">Hey I'm Brendan</h2>
+        <p class="txt-body">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work on various projects.  I post my WIPs and POCs on <a class="link-body" href="" alt="" no-referrer no-opener>Dribbble</a> and <a class="link-body" href="" alt="" no-referrer no-opener>Codepen</a> so be sure to follow me there.  Occasionally I blog on <a class="link-body" href="" alt="" no-referrer no-opener>Medium</a>, as well.</p>
+        <p class="txt-body">Thanks for stopping by!</p>
+        <p>-Brendan</p>
+      </div>
     </div>
     <div id="process" class="home-section">
       <h2>Process section</h2>
@@ -44,5 +46,9 @@ export default {
 .home-section {
   min-height: 50vh;
   margin: 6rem 3rem 0rem;
+}
+#intro {
+  margin: 0 auto;
+  max-width: 64ch;
 }
 </style>
