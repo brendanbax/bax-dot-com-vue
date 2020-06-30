@@ -157,13 +157,14 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
-  max-width: 64ch;
 }
 .txt-body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
-  max-width: 64ch;
+}
+.txt-center {
+  text-align: center;
 }
 .link-body {
   position: relative;
@@ -193,5 +194,19 @@ h1, h2, h3, h4, h5, h6, p, a {
   height: 1.875rem;
   border-radius: 2rem;
   transition: height 200ms, border-radius 180ms 120ms;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  height: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #C7C7C7;
+}
+::-webkit-scrollbar-track {
+  background-color: #F7F7F7;
+}
+::selection {
+  background-color: var(--t-brand-lt);
+  color: var(--t-brand-dk);
 }
 </style>
