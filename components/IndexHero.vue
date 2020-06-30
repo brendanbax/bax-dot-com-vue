@@ -16,15 +16,25 @@ export default {
 <style scoped>
 #hero {
   box-sizing: border-box;
+  position: relative;
   min-height: 90vh;
   padding: var(--nav-height) 3rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: var(--hero),
-                    linear-gradient(to bottom right, var(--t-brand), var(--t-dk));
-  background-blend-mode: unset;
+                    radial-gradient(circle at top left, var(--t-brand), var(--t-dk));
   background-repeat: repeat;
+}
+#hero::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 20vh solid var(--bg);
+  border-left: 100vw solid transparent;
 }
 .txt-primary {
   font-size: 4.5rem;
@@ -55,7 +65,28 @@ export default {
   stroke-width: 3px;
   opacity: 0.75;
 }
-.buffer {
-  margin-top: 2rem;
+@media screen and (max-width: 480px) {
+  .txt-primary {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  #hero {
+    padding: var(--nav-height) 1rem 0;
+  }
+  .txt-primary {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .txt-secondary {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 667px) and (orientation: landscape) {
+  #hero {
+    padding: 6rem 3rem;
+  }
 }
 </style>

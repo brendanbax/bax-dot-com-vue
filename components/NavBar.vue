@@ -4,8 +4,8 @@
       <Logo class="nav-logo"/>
     </div>
     <span>
-      <nuxt-link class="nav-link" active-class="link-active" to="/">About</nuxt-link>
-      <nuxt-link class="nav-link" active-class="link-active" to="/projects">Projects</nuxt-link>
+      <nuxt-link class="nav-link" exact active-class="link-active" to="/">About</nuxt-link>
+      <nuxt-link class="nav-link" exact active-class="link-active" to="/projects">Projects</nuxt-link>
     </span>
   </nav>
 </template>
@@ -33,7 +33,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,14 +96,20 @@ nav {
   font-size: 1rem;
   transition: color 200ms;
 }
-.link-active {
-  border-bottom: 1px solid var(--t-lt);
+.link-active::after {
+  content: '';
+  position: absolute;
+  z-index: 999;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--t-lt);
 }
 .nav-link:first-child {
   margin-right: 2rem;
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover {
   color: var(--t-dk);
   transition: color 200ms;
   border-bottom: none;
@@ -120,12 +126,21 @@ nav {
   border-radius: 0;
   transition: height 200ms, border-radius 200ms;
 }
-.nav-link:hover::before,
-.nav-link:focus::before {
+.nav-link:hover::before {
   height: calc(100% + 1rem);
   border-radius: 1rem;
   box-shadow: .5rem .5rem 1rem -.25rem rgba(0,0,0,0.5),
               .125rem .125rem .5rem rgba(0,0,0,0.2);
   transition: height 240ms, border-radius 200ms 300ms, box-shadow 200ms 300ms;
+}
+@media screen and (max-width: 420px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (max-width: 667px) and (orientation: landscape) {
+  nav {
+    padding: 1.5rem 3rem;
+  }
 }
 </style>
