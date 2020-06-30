@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="solid ? 'f-dk' : ''">
     <div class="logo-container" @click="swap" tabindex="0">
       <Logo class="nav-logo"/>
     </div>
@@ -18,9 +18,35 @@
     components: {
       Logo,
     },
+    data() {
+      return {
+        solid: false,
+      }
+    },
+    created () {
+      if(process.client) {
+        window.addEventListener('scroll', this.handleScroll);
+        if (window.location.pathname.includes('projects')) {
+          this.solid = true;
+        }
+      }
+    },
+    destroyed () {
+      if(process.client) {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+    },
     methods: {
       swap() {
         this.$emit('swap');
+      },
+      handleScroll () {
+        let y = window.scrollY;
+        if (y > 100) {
+          this.solid = true;
+        } else {
+          this.solid = false;
+        }
       }
     }
   }
@@ -29,14 +55,16 @@
 <style scoped>
 nav {
   height: var(--nav-height);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
   padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background-color 300ms;
 }
 .logo-container {
   box-sizing: border-box;
@@ -66,9 +94,8 @@ nav {
 .logo-container::after {
   content: "Theme";
   position: absolute;
-  bottom: 0;
+  left: 0;
   width: max-content;
-  
   color: var(--t-lt);
   font-family: var(--font);
   font-size: .75rem;
@@ -77,10 +104,10 @@ nav {
   opacity: 0;
 }
 .logo-container:hover::after {
-  bottom: -1.5rem;
+  left: 3rem;
   z-index: 0;
   opacity: 1;
-  transition: bottom 200ms 500ms, opacity 200ms 500ms;
+  transition: left 200ms 500ms, opacity 200ms 500ms;
 }
 .nav-logo {
   width: 1.5rem;

@@ -132,7 +132,7 @@ export default {
 .f-bg { background-color: var(--bg); }
 
 /* Style Resets */
-html { font-size: 16px; }
+html { font-size: 16px; scroll-behavior: smooth; }
 body { margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, h6, p, a {
   margin: 0;
@@ -143,5 +143,18 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--fg);
+}
+/* Typography */
+.txt-section {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.txt-body {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  max-width: 64ch;
 }
 </style>
