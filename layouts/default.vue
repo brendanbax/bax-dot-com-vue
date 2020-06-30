@@ -32,8 +32,14 @@ export default {
   mounted() {
     // On page load check local storage for a theme
     // If theme -> update this.theme
+
+    // else -> check system settings
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+    if(userPrefersDark){
+        this.theme = 'theme-earth';
+    }
     // else -> generate a random number and pick a theme...
-    // unless using JS I can detect preferred color (light / dark) then use that...
     console.log('mounted');
   }
 }
