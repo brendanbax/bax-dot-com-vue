@@ -1,13 +1,6 @@
 <template>
   <div>
     <IndexHero />
-    <div class="flex-row">
-      <div class="f-lt pill" />
-      <div class="f-brand-lt pill" />
-      <div class="f-brand pill" />
-      <div class="f-brand-dk pill" />
-      <div class="f-dk pill" />
-    </div>
     <div id="intro">
       <h2>Short intro section</h2>
       <p>Welcome to Brendan Bax Dot Com, personal site of yours truly.  Here you can learn more about me, my process, and the impact of my work on various projects.  I post my WIPs and POCs on [Dribbble]() and [Codepen]() so be sure to follow me there.  Occasionally I blog on Medium, as well.  Thanks for stopping by!</p>

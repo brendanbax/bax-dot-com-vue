@@ -51,7 +51,7 @@ export default {
   --t-lt: #EAF7EB;
   --t-brand-lt: #EFB81D;
   --t-brand: #E46D74;
-  --t-brand-dk: #F37B52;
+  --t-brand-dk: #5c4f4b;
   --t-dk: #1F1534;
   
   --bg: var(--t-lt);
