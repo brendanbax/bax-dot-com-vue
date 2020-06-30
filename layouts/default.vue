@@ -20,27 +20,28 @@ export default {
   },
   methods: {
     swapTheme() {
-      console.log('swapping theme');
       let currentTheme = this.themeBank.findIndex((el) => el === this.theme);
       currentTheme += 1;
       if (currentTheme >= this.themeBank.length) {
         currentTheme = 0;
       }
       this.theme = this.themeBank[currentTheme];
+      localStorage.setItem('theme', this.themeBank[currentTheme]);
     }
   },
   mounted() {
-    // On page load check local storage for a theme
-    // If theme -> update this.theme
-
-    // else -> check system settings
-    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-    if(userPrefersDark){
+    let savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      this.theme = savedTheme;
+    } else {
+      const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+      if(userPrefersDark) {
         this.theme = 'theme-earth';
+      } else {
+        this.theme = 'theme-base';
+      }
     }
-    // else -> generate a random number and pick a theme...
-    console.log('mounted');
   }
 }
 </script>
