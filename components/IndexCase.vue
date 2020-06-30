@@ -10,6 +10,7 @@
         </div>
       </div>
       <div class="right">
+        <!-- TODO: Add images to posts, along with other meta -->
         <div>Image Here</div>
       </div>
     </div>

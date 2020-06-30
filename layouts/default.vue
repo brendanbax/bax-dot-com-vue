@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   transition: height 200ms, border-radius 180ms 120ms;
 }
 /* Buttons */
+/* TODO: Add hover and active states for these buttons */
 .btn {
   box-sizing: border-box;
   display: block;
