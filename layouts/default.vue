@@ -2,11 +2,13 @@
   <div :class="theme">
     <NavBar @swap="swapTheme" />
     <Nuxt class="dynamic"/>
+    <FootBar />
   </div>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar'
+import FootBar from '@/components/FootBar'
 
 export default {
   components: {
@@ -155,6 +157,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
+  max-width: 64ch;
 }
 .txt-body {
   font-weight: 400;
