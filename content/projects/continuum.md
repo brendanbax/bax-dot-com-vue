@@ -2,9 +2,10 @@
 status: "publish"
 type: "project"
 path: "/projects/continuum"
-title: "Continuum"
+title: "Mercy Virtual AtHome Lite"
 date: "2020-02-17"
 tags: ["mobile app", "react native", "ux", "ui", "design", "healthcare"]
+teaser: "Learn how I simplified telemedicine access during COVID-19 by designing a simple, point-to-point video solution enabling 3,000+ video visits a day."
 ---
 
 <h3 class="txt-title">Context</h3>

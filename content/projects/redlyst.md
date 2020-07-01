@@ -5,6 +5,7 @@ path: "/projects/redlyst"
 title: "redlyst"
 date: "2019-06-01"
 tags: ["mobile app", "iOS", "ui", "ux", "security", "coolfire"]
+teaser: ""
 ---
 
 <h3 class="txt-title">Context</h3>

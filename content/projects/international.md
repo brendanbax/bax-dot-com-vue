@@ -5,6 +5,7 @@ path: "/projects/international"
 title: "International"
 date: "2017-11-12"
 tags: ['web app', 'angular', 'html', 'css', 'javascript', 'wwt', 'asynchrony']
+teaser: "I reimagined consumer lending for a regional bank, transforming the experience and driving massive adoption of online loan applications."
 ---
 
 <h3 class="txt-title">The Challenge</h3>

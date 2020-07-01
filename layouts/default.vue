@@ -170,6 +170,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 .txt-center {
   text-align: center;
 }
+.buffer {
+  margin: 1rem 0 1.5rem;
+}
 .link-body {
   position: relative;
   display: inline-block;
@@ -200,20 +203,54 @@ h1, h2, h3, h4, h5, h6, p, a {
   transition: height 200ms, border-radius 180ms 120ms;
 }
 /* Buttons */
-/* TODO: Add hover and active states for these buttons */
 .btn {
+  position: relative;
   box-sizing: border-box;
-  display: block;
   padding: .5rem 1rem;
-  border-radius: .25rem;
-  border: none;
-  cursor: pointer;
+  text-decoration: none;
   font-family: var(--font);
   font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid var(--t-brand);
+  border-radius: .75rem;
+  opacity: 0;
+  transition: opacity 150ms, left 300ms, top 300ms, right 300ms, bottom 300ms;
+}
+.btn:hover {
+  opacity: 0.95;
+  box-shadow: 0 1.5rem 1.75rem -.675rem rgba(0,0,0,0.175),
+              0 .25rem .375rem -.125rem rgba(0,0,0,0.35);
+  transition: opacity 300ms, box-shadow 240ms;
+}
+.btn:hover::before,
+.btn:focus::before {
+  left: -.75rem;
+  top: -.75rem;
+  right: -.75rem;
+  bottom: -.75rem;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  transition: opacity 150ms, left 300ms, top 300ms, right 300ms, bottom 300ms;
 }
 .btn-primary {
   background-color: var(--t-brand);
+  border: 2px solid var(--t-brand);
   color: var(--t-lt);
+  box-shadow: 0 1rem 1.5rem -.5rem rgba(0,0,0,0.175),
+              0 .5rem .5rem -.25rem rgba(0,0,0,0.35);
+  transition: opacity 300ms, box-shadow 240ms;
 }
 .btn-secondary {
   background-color: var(--fg);

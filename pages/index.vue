@@ -3,10 +3,8 @@
     <IndexHero />
     <div class="container">
       <h2 class="txt-section">Hey I'm Brendan</h2>
-      <br>
-      <p class="txt-body">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work at various companies.  I post my WIPs and POCs on <a class="link-body" href="" alt="" no-referrer no-opener>Dribbble</a> and <a class="link-body" href="" alt="" no-referrer no-opener>Codepen</a> so be sure to follow me there.</p>
+      <p class="txt-body buffer">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work at various companies.  I post my WIPs and POCs on <a class="link-body" href="" alt="" no-referrer no-opener>Dribbble</a> and <a class="link-body" href="" alt="" no-referrer no-opener>Codepen</a> so be sure to follow me there.</p>
       <!-- Occasionally I blog on <a class="link-body" href="" alt="" no-referrer no-opener>Medium</a>, as well. -->
-      <br>
       <p class="txt-body">Thanks for stopping by!</p>
       <p>-Brendan</p>
     </div>
@@ -33,7 +31,7 @@ export default {
     IndexAbout,
   },
   async asyncData ({ $content }) {
-    const post = await $content('projects').sortBy('createdAt', 'desc').limit(1).fetch();
+    const post = await $content('projects').sortBy('date', 'desc').limit(1).fetch();
     return { post };
   },
   computed: {

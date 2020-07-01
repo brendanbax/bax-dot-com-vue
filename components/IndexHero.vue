@@ -17,7 +17,8 @@ export default {
 #hero {
   box-sizing: border-box;
   position: relative;
-  min-height: 90vh;
+  min-height: 600px;
+  height: 90vh;
   padding: var(--nav-height) 3rem 0;
   display: flex;
   flex-direction: column;

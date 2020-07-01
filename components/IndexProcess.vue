@@ -75,8 +75,8 @@
 }
 .card {
   background: var(--bg);
-  box-shadow: 0 1rem 1.5rem rgba(0,0,0,0.175),
-              0 .375rem .5rem -.25rem rgba(0,0,0,0.35);
+  box-shadow: 0 1rem 1.5rem -.5rem rgba(0,0,0,0.175),
+              0 .5rem .5rem -.25rem rgba(0,0,0,0.35);
   border-radius: 1rem;
   padding: 1rem;
   border-top: 1px solid var(--acc);
