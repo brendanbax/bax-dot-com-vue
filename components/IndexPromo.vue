@@ -35,8 +35,12 @@
   height: 600px; 
 }
 .item {
+  box-sizing: border-box;
   width: 32%;
   margin-bottom: 2%; /* Optional */
+  /* Sample Styling */
+  border: 1px solid white;
+  padding: 1rem;
 }
 /* Re-order items into 3 rows */
 .item:nth-child(3n+1) { order: 1; }
