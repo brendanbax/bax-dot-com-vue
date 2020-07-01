@@ -11,7 +11,6 @@
     <IndexProcess />    
     <IndexCase :post="lastPost" />
     <IndexPromo />
-    <IndexAbout />
   </div>
 </template>
 
@@ -20,7 +19,6 @@ import IndexHero from '@/components/IndexHero'
 import IndexProcess from '@/components/IndexProcess'
 import IndexCase from '@/components/IndexCase'
 import IndexPromo from '@/components/IndexPromo'
-import IndexAbout from '@/components/IndexAbout'
 
 export default {
   component: {
@@ -28,7 +26,6 @@ export default {
     IndexProcess,
     IndexCase,
     IndexPromo,
-    IndexAbout,
   },
   async asyncData ({ $content }) {
     const post = await $content('projects').sortBy('date', 'desc').limit(1).fetch();
@@ -42,7 +39,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 6rem auto;
   padding: 0 3rem;

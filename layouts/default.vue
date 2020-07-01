@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 /* Typography */
 .txt-section {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -166,6 +166,11 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
+}
+.txt-micro {
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.5rem;
 }
 .txt-center {
   text-align: center;
