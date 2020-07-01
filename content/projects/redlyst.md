@@ -56,34 +56,34 @@ I designed the web and mobile product experiences and worked closely with the de
 
 These are some of the design mocks for iOS, all of the photos and data are fake - these aren't real security threats.
 
-![login](/assets/redlyst/00-OpenLogin.png)
+![login](/redlyst/00-OpenLogin.png)
 
-![onboarding](/assets/redlyst/01-Onboarding.png)
+![onboarding](/redlyst/01-Onboarding.png)
 
-![activity](/assets/redlyst/02-ActivityFeed.png)
+![activity](/redlyst/02-ActivityFeed.png)
 
-![face_match](/assets/redlyst/03-FaceMatch.png)
+![face_match](/redlyst/03-FaceMatch.png)
 
-![mapping](/assets/redlyst/04-Map.png)
+![mapping](/redlyst/04-Map.png)
 
-![chat](/assets/redlyst/05-Chat.png)
+![chat](/redlyst/05-Chat.png)
 
-![sensor_details](/assets/redlyst/06-Sensors.png)
+![sensor_details](/redlyst/06-Sensors.png)
 
 The sharing and subscription screens highlighting what _sharing_ means, as well as how redlyst aims to protect the integrity of their customer's data.
 
-![subscriptions](/assets/redlyst/07-Subscriptions.png)
+![subscriptions](/redlyst/07-Subscriptions.png)
 
 The marketplace didn't need to rely on user-submitted data. redlyst could in fact provide huge data sets on a marketplace using public information like the FBI's most wanted lists - grouped by any common denominator like region, city, type of offense, etc.
 
-![marketplace](/assets/redlyst/08-Marketplace.png)
+![marketplace](/redlyst/08-Marketplace.png)
 
 I designed a slew of custom illustrations for the app to be used as placeholders, empty states, or to explain abstract concepts visually (like cloud storage).
 
-![branding_interactions](/assets/redlyst/09-Interactions.png)
+![branding_interactions](/redlyst/09-Interactions.png)
 
 The biggest shift for desktop was adding the left nav bar and having more screen space to spread out the details.
 
-![desktop_activity](/assets/redlyst/10-Home.png)
+![desktop_activity](/redlyst/10-Home.png)
 
-![desktop_contacts](/assets/redlyst/11-Selected.png)
+![desktop_contacts](/redlyst/11-Selected.png)

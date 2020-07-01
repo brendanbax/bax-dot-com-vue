@@ -38,7 +38,7 @@ I broke the mission down to a vision of the product: _building a platform that e
 
 I worked to cast an MVP vision of the app using Sketch, iterating over designs with our PM and service line manager. I created the _Continuum_ logo and branding to help sell our vision to leadership and build momentum around the project. The care teams were pumped, leadership was pumped, and the team had something to rally behind.
 
-![Branding](/assets/continuum/00-LogoDesign.png)
+![Branding](/continuum/00-LogoDesign.png)
 
 <h3 class="txt-title">Challenges</h3>
 
@@ -64,28 +64,28 @@ By working with the business more, we helped distinguish our platform from previ
 
 As a developer I contributed to the code base and helped implement our new mobile experience with React Native.
 
-![launch flow](/assets/continuum/01-Launch.png)
+![launch flow](/continuum/01-Launch.png)
 
-![create account](/assets/continuum/02-CreateAccount1.png)
+![create account](/continuum/02-CreateAccount1.png)
 
-![create account](/assets/continuum/03-CreateAccount2.png)
+![create account](/continuum/03-CreateAccount2.png)
 
-![account recovery](/assets/continuum/04-AccountRecovery.png)
+![account recovery](/continuum/04-AccountRecovery.png)
 
 Partway into the design of the app the team decided to include user accounts, which meant adding a complete onboarding and account setup flow. In addition, the user themselves **MAY NOT** be the patient receiving care from the team - so I had to add a proxy state to the app. You are logged in as yourself, but you will be viewing the information for a patient whom you care for. This solved a problem related to parents taking care of their sick children (which we had use-cases for from the care team).
 
-![linking patients](/assets/continuum/05-LinkingPatients.png)
+![linking patients](/continuum/05-LinkingPatients.png)
 
-![patient list](/assets/continuum/06-PatientList.png)
+![patient list](/continuum/06-PatientList.png)
 
-![chat](/assets/continuum/07-CareTeamChat.png)
+![chat](/continuum/07-CareTeamChat.png)
 
-![surveys](/assets/continuum/08-Surveys.png)
+![surveys](/continuum/08-Surveys.png)
 
-![education](/assets/continuum/09-Education.png)
+![education](/continuum/09-Education.png)
 
 One core philosophy of the app was **strong communication** so I wanted to maintain access to relevant content anywhere in the app. These in-app notifications allow users to view and respond to messages without leaving their current task, such as completing a survey.
 
-![In App Notification](/assets/continuum/10-InAppNotifications.png)
+![In App Notification](/continuum/10-InAppNotifications.png)
 
-![user settings](/assets/continuum/11-UserSettings.png)
+![user settings](/continuum/11-UserSettings.png)

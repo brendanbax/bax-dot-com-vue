@@ -42,18 +42,18 @@ Sr. Product Manager at [Client]
 
 The product has been rebranded and is actively being converted to a stand alone commercial solution by the client.
 
-![](/assets/roadside/FHD-1.png)
+![](/roadside/FHD-1.png)
 
-![](/assets/roadside/FHD-2.png)
+![](/roadside/FHD-2.png)
 
-![](/assets/roadside/FHD-3.png)
+![](/roadside/FHD-3.png)
 
-![](/assets/roadside/FHD-4.png)
+![](/roadside/FHD-4.png)
 
-![](/assets/roadside/FHD-5.png)
+![](/roadside/FHD-5.png)
 
-![](/assets/roadside/FHD-6.png)
+![](/roadside/FHD-6.png)
 
-![](/assets/roadside/FHD-7.png)
+![](/roadside/FHD-7.png)
 
-![](/assets/roadside/FHD-8.png)
+![](/roadside/FHD-8.png)

@@ -17,9 +17,9 @@ I started by journey mapping the home buying process, leveraging my experience a
 
 After testing a few ideas I ultimately landed on building a single page application that incrementally moved users along the happy path, breaking a long process into smaller chunks of activity. This approach allowed for branching logic so users could skip questiosn that weren't relevant to them and enabled a more conversational interface- answers from some questions populate the text of others.
 
-![](/assets/international/journey.jpg)
+![](/international/journey.jpg)
 
-![](/assets/international/testing.jpg)
+![](/international/testing.jpg)
 
 <h3 class="txt-title">The Deliverables</h3>
 
@@ -27,13 +27,13 @@ Working with the business teams, I laid out the logic maps, wire frames, and mad
 
 I took my design a step further and built a responsive prototype using HTML, SaSS, and JavaScript. This gave the production app a head start, as we were under a tight deadline. I built the presentation layer of our app in Angular 4.0 and paired with other developers to fix bugs, improve accessibility, and add new Angular components and logic. Once production ramped up I made myself a proxy project manager and set up a Kanban board for story tracking. I facilitated standups and interfaced with clients daily, mitigating their feedback into digestible stories.
 
-![](/assets/international/mocks1.png)
+![](/international/mocks1.png)
 
-![](/assets/international/mocks2.png)
+![](/international/mocks2.png)
 
-![](/assets/international/mocks3.png)
+![](/international/mocks3.png)
 
-![](/assets/international/mocks4.png)
+![](/international/mocks4.png)
 
 
 <h3 class="txt-title">The Results</h3>
