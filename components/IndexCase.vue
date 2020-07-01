@@ -70,4 +70,17 @@
 .btn-grid > .btn {
   margin-right: 1rem;
 }
+@media screen and (max-width: 960px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .right {
+    width: 100%;
+  }
+  .left {
+    margin-right: 0;
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
 </style>
