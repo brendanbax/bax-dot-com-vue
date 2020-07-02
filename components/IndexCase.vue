@@ -60,8 +60,7 @@
   background-position: center;
   background-size: cover;
   border-radius: 1rem;
-  box-shadow: 0 1rem 1.5rem -.5rem rgba(0,0,0,0.175),
-              0 .5rem .5rem -.25rem rgba(0,0,0,0.35);
+  box-shadow: var(--shadow-xl);
 }
 .btn-grid {
   display: flex;
@@ -71,6 +70,9 @@
   margin-right: 1rem;
 }
 @media screen and (max-width: 960px) {
+  #case {
+    padding-top: 2rem;
+  }
   .section {
     flex-direction: column-reverse;
   }
@@ -81,6 +83,11 @@
     margin-right: 0;
     margin-top: 3rem;
     width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #case {
+    padding: 2rem 1rem 4rem;
   }
 }
 </style>
