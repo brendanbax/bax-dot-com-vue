@@ -64,14 +64,14 @@
 <style scoped>
 #about {
   margin-top: 3rem;
-  min-height: 50vh;
 }
 .container {
   margin: 3rem auto 0;
   padding: 0 3rem;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, .5fr);
+  grid-template-rows: repeat(2, .5fr);
   grid-gap: 1rem;
 }
 .promo-item {
@@ -131,7 +131,7 @@
 @media screen and (max-width: 960px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, .5fr);
+    grid-template-rows: repeat(3, .5fr);
   }
   #c-0 {
     grid-row-start: 1;
