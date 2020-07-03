@@ -168,16 +168,19 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 /* Typography */
 .txt-section {
+  font-family: var(--font);
   font-weight: 900;
   font-size: 1.5rem;
   line-height: 2rem;
 }
 .txt-body {
+  font-family: var(--font);
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
 }
 .txt-micro {
+  font-family: var(--font);
   font-weight: 400;
   font-size: .875rem;
   line-height: 1.5rem;

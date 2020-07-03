@@ -13,9 +13,6 @@
         </div>
       </div>
     </div>
-    <div>
-      <p class="txt-body">I am a designer and developer with a passion for productization.  My obsessive dedication to detail has helped me create transformational software experiences for agencies, startups, and major corporations.  Before pursuing a career in tech I was a licensed realtor and a college instructor.  When not pushing pixels or writing code I like to go on outdoor adventures with my wife and kids.</p>
-    </div>
   </div>
 </template>
 
@@ -64,6 +61,7 @@
 <style scoped>
 #about {
   margin-top: 3rem;
+  padding-bottom: 3rem;
 }
 .container {
   margin: 3rem auto 0;
