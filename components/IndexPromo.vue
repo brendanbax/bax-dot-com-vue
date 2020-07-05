@@ -25,31 +25,31 @@
           {
             content: 'Brendan has an infectious attitude that leaves you feeling excited to execute on the designs and concepts that he creates. He has also been a great mentor to the design team and has helped to bring them up to speed quickly.',
             attr: 'Nicholas Kajok',
-            company: 'Coolfire Solutions',
+            company: 'Coolfire Solutions (2019)',
             img: '/media/nick.png'
           },
           {
             content: `Working with Brendan in Mercy Virtual's R&D group was a pleasure. His programming skills were top notch and his personality, drive, and ability to understand the mission was unparalleled. Brendan's eye for design and desire to build usable, yet beautiful interfaces really stood out while we worked together. He was always eager to teach and learn and his leadership kept us on track in our agile environment. Great guy, great developer, great designer, and a pleasure to work with.`,
             attr: 'Jordan Woerndle',
-            company: 'Mercy Virtual',
+            company: 'Mercy Virtual (2020)',
             img: '/media/jordan.png'
           },
           {
             content: 'His designs clearly articulate the value a user will get out of each interaction with the page. Working with Brendan was a treat. In three days of pairing, we were able to redesign the entire application and put forward a working prototype.',
             attr: 'Johnny Steenbergen',
-            company: 'WWT Asynchrony Labs',
+            company: 'WWT Asynchrony Labs (2017)',
             img: '/media/johnny.png'
           },
           {
             content: 'Brendan is a talented, thoughtful UX and interaction designer. I am convinced he can learn and master any skill or practice to make himself a UX thought and practice lead.',
             attr: 'Kate Chadha',
-            company: 'WWT Asynchrony Labs',
+            company: 'WWT Asynchrony Labs (2017)',
             img: '/media/kate.png'
           },
           {
             content: `Brendan works well as a team player. His ability to change designs and tasks to help the overall team is unparalleled. He not only will support his developers but also steps in as a developer when he can. It's amazing to have him around.`,
             attr: 'Calvin Cox',
-            company: 'WWT Asynchrony Labs',
+            company: 'WWT Asynchrony Labs (2018)',
             img: '/media/calvin.png'
           },
         ]

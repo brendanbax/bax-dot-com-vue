@@ -5,7 +5,7 @@ path: "/projects/redlyst"
 title: "redlyst"
 date: "2019-06-01"
 tags: ["mobile app", "iOS", "ui", "ux", "security", "coolfire"]
-teaser: ""
+teaser: "I helped create an enhanced situational awareness platform that puts actionable data in the right hands, at the right time."
 ---
 
 <h3 class="txt-title">Context</h3>

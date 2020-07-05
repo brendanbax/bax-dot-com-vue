@@ -5,7 +5,7 @@ path: "/projects/roadside"
 title: "Roadside for Enterprise"
 date: "2019-05-24"
 tags: ["web app", "react", "ux", "ui", "design", "coolfire", "mapping"]
-teaser: "Learn how designing a guided response tool with high-accuracy mapping slashed response time for an international rental giant."
+teaser: "Learn how designing a guided response tool with high-accuracy mapping slashed response times for an international rental giant."
 ---
 
 <h3 class="txt-title">The Challenge</h3>
