@@ -34,17 +34,28 @@
 <style scoped>
 .section-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  min-height: 50vh;
   margin: 0 auto;
+  padding-bottom: 6rem;
 }
-.body-container {
-  width: 50%;
+.section-container:last-child {
+  padding-bottom: 0;
+}
+.section-container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.section-container:nth-child(odd) {
+  flex-direction: row;
+}
+.section-container:nth-child(even) > .body-container {
+  margin-left: 3rem;
+}
+.section-container:nth-child(odd) > .body-container {
   margin-right: 3rem;
 }
-.cover-container {
+.body-container, .cover-container {
   width: 50%;
 }
 .cover {
@@ -56,16 +67,26 @@
   box-shadow: var(--shadow-xl);
 }
 @media screen and (max-width: 960px) {
-  .section-container {
+  .section-container:nth-child(even),
+  .section-container:nth-child(odd) {
     flex-direction: column-reverse;
   }
-  .body-container {
+  .section-container:nth-child(even) > .body-container,
+  .section-container:nth-child(odd) > .body-container {
+    margin-left: 0;
     margin-right: 0;
+  }
+  .body-container {
     margin-top: 3rem;
     width: 100%;
   }
   .cover-container {
     width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cover {
+    height: 240px;
   }
 }
 </style>

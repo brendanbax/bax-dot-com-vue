@@ -1,15 +1,10 @@
 <template>
   <div class="container">
-
     <PostPreview
-      :post="{ title: 'foo', teaser: 'bar', slug: 'redlyst'}"
-    />
-
-    <!-- <PostPreview
       v-for="(post, index) in posts"
       :key="'p_' + index"
-      :post="elPost"
-    /> -->
+      :post="post"
+    />
   </div>
 </template>
 
@@ -33,5 +28,10 @@ export default {
   margin-top: var(--nav-height);
   padding: 6rem 3rem;
   min-height: 50vh;
+}
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 6rem 1rem;
+  }
 }
 </style>
