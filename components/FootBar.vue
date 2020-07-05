@@ -35,11 +35,11 @@
 
   export default {
     name: 'FootBar',
-    components: [
-      'IconCodepen',
-      'IconDribbble',
-      'IconLinkedin',
-    ],
+    components: {
+      IconCodepen,
+      IconDribbble,
+      IconLinkedin,
+    },
     computed: {
       time() {
         let date = new Date();

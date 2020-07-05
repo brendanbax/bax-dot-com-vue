@@ -10,9 +10,12 @@
 <script>
   export default {
     name: 'Logo',
-    props: [
-      'className'
-    ]
+    props: {
+      className: {
+        type: String,
+        required: false,
+      },
+    }
   }
 </script>
 

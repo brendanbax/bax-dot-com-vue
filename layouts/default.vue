@@ -12,7 +12,8 @@ import FootBar from '@/components/FootBar'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    FootBar,
   },
   data() {
     return {

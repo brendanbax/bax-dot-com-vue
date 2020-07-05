@@ -10,7 +10,6 @@
         </div>
       </div>
       <div class="right">
-        <!-- TODO: Add images to posts, along with other meta -->
         <div class="cover" :style="`background-image: url(${this.coverImg})`" />
       </div>
     </div>
@@ -20,9 +19,12 @@
 <script>
   export default {
     name: 'IndexCase',
-    props: [
-      'post'
-    ],
+    props: {
+      post: {
+        type: Object,
+        required: true,
+      },
+    },
     computed: {
       coverImg() {
         let postSlug = this.post.slug;

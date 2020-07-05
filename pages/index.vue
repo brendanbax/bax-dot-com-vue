@@ -21,7 +21,7 @@ import IndexCase from '@/components/IndexCase'
 import IndexPromo from '@/components/IndexPromo'
 
 export default {
-  component: {
+  components: {
     IndexHero,
     IndexProcess,
     IndexCase,

@@ -13,12 +13,7 @@
 </template>
     
 <script>
-import NavBar from '~/components/NavBar'
-
 export default {
-  components: {
-    NavBar
-  },
   async asyncData ({ $content, params }) {
     const post = await $content('projects', params.slug).fetch()
     return { post }

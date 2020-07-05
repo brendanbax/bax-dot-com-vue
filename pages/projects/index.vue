@@ -1,32 +1,37 @@
 <template>
-  <div>
-    <h1>Projects</h1>
-    <div v-for="post in posts" :key="post.slug">
-      <h3>
-        <nuxt-link :to="`projects/${post.slug}`">{{ post.title }}</nuxt-link>
-      </h3>
-      <div>{{ post.description }}</div>
-    </div>
+  <div class="container">
+
+    <PostPreview
+      :post="{ title: 'foo', teaser: 'bar', slug: 'redlyst'}"
+    />
+
+    <!-- <PostPreview
+      v-for="(post, index) in posts"
+      :key="'p_' + index"
+      :post="elPost"
+    /> -->
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar'
+import PostPreview from '@/components/PostPreview'
 
 export default {
   name: 'Projects',
   components: {
-    NavBar
+    PostPreview
   },
   async asyncData ({ $content }) {
-    // content function looks in content/projects folder
-    // TODO: look in to sorting content by a frontmatter key, not file data
-    const posts = await $content('projects').sortBy('createdAt', 'desc').fetch()
+    const posts = await $content('projects').sortBy('date', 'desc').fetch()
     return { posts }
   }
 }
 </script>
 
-<style>
-/* this is a list of all the projects, style accordingly */
+<style scoped>
+.container {
+  margin-top: var(--nav-height);
+  padding: 6rem 3rem;
+  min-height: 50vh;
+}
 </style>
