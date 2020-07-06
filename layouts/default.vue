@@ -50,8 +50,6 @@ export default {
 </script>
 
 <style>
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
 /* Utility */
 :root {
   --nav-height: 2rem;
