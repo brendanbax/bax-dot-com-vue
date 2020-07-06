@@ -4,8 +4,8 @@ type: "project"
 path: "/projects/roadside"
 title: "Roadside for Enterprise"
 date: "2019-05-24"
-tags: ["web app", "react", "ux", "ui", "design", "coolfire", "mapping"]
-teaser: "Learn how designing a guided response tool with high-accuracy mapping slashed response times for an international rental giant."
+tags: ["ux", "ui", "design", "geospatial", "material design", "journey mapping", "task optimization"]
+teaser: "By designing a guided response tool with high-accuracy mapping, I slashed response times for an international rental giant."
 ---
 
 ### The Challenge
@@ -34,14 +34,14 @@ Opportunities for delight included simplified search, easy-to-use mapping, a wiz
 
 The call center is live and being actively used for roadside problems. The client passed on feedback from a training session with new workers...
 
-...we got some rave reviews today in the training class
-
-**'I’ve worked at a lot of Contact Centers, and in a lot of systems, and this is the best system I’ve worked in. It’s very smooth and user friendly.'**
+*"We got some rave reviews today in the training class... <strong>'I’ve worked at a lot of Contact Centers, and in a lot of systems, and this is the best system I’ve worked in. It’s very smooth and user friendly.'</strong>"*
 
 Samantha T.<br>
 Sr. Product Manager at [Client]
 
-The product has been rebranded and is actively being converted to a stand alone commercial solution by the client.
+The product has been rebranded to "HERO" and is actively being converted to a stand alone commercial solution by the client.
+
+### Some Visuals
 
 ![](/roadside/FHD-1.png)
 

@@ -4,7 +4,7 @@ type: "project"
 path: "/projects/international"
 title: "International"
 date: "2017-11-12"
-tags: ['web app', 'angular', 'html', 'css', 'javascript', 'wwt', 'asynchrony']
+tags: ['ux', 'design', 'ui', 'user research', 'journey mapping', 'competitor analysis', 'a/b testing']
 teaser: "I reimagined consumer lending for a regional bank, transforming the experience and driving massive adoption of online loan applications."
 ---
 
@@ -28,6 +28,18 @@ Working with the business teams, I laid out the logic maps, wire frames, and mad
 
 I took my design a step further and built a responsive prototype using HTML, SaSS, and JavaScript. This gave the production app a head start, as we were under a tight deadline. I built the presentation layer of our app in Angular 4.0 and paired with other developers to fix bugs, improve accessibility, and add new Angular components and logic. Once production ramped up I made myself a proxy project manager and set up a Kanban board for story tracking. I facilitated standups and interfaced with clients daily, mitigating their feedback into digestible stories.
 
+### The Results
+
+Once we shipped our MVP we were awarded an additional project - a consumer portal for tracking application progress - and our design system was adopted for other digital account opening flows. As a team, we demonstrated the benefits of agile development and design thinking to a large organization, who is adopting this approach elsewhere. Mortgage Loan Originators refer customers to the online app because of its ease of use and are seeing increased conversions compared to the previous app.
+
+*"Everyone is so excited about it as it is our first step into creating a first class experience for our customers and, I believe, will be the foundation to move us past our peers in our digital experience. Corporate marketing loved it so much that they are looking at the possibility of a commercial! All of you should take a HUGE amount of pride in the work you’ve already done and the fine tuning to get this perfect. It amazes me every time I do a demo how incredible this looks. I am extremely lucky to work with this kind of talent. You all are amazing and I thank you very much for all of the effort."*
+
+Rory F.</br>
+Vice President</br>
+Customer Experience Delivery Manager
+
+### Visual Artifacts
+
 ![](/international/mocks1.png)
 
 ![](/international/mocks2.png)
@@ -35,13 +47,3 @@ I took my design a step further and built a responsive prototype using HTML, SaS
 ![](/international/mocks3.png)
 
 ![](/international/mocks4.png)
-
-### The Results
-
-Once we shipped our MVP we were awarded an additional project - a consumer portal for tracking application progress - and our design system was adopted for other digital account opening flows. As a team, we demonstrated the benefits of agile development and design thinking to a large organization, who is adopting this approach elsewhere. Mortgage Loan Originators refer customers to the online app because of its ease of use and are seeing increased conversions compared to the previous app.
-
-Everyone is so excited about it as it is our first step into creating a first class experience for our customers and, I believe, will be the foundation to move us past our peers in our digital experience. Corporate marketing loved it so much that they are looking at the possibility of a commercial! All of you should take a HUGE amount of pride in the work you’ve already done and the fine tuning to get this perfect. It amazes me every time I do a demo how incredible this looks. I am extremely lucky to work with this kind of talent. You all are amazing and I thank you very much for all of the effort.
-
-Rory F.</br>
-Vice President</br>
-Customer Experience Delivery Manager
