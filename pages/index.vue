@@ -3,7 +3,7 @@
     <IndexHero />
     <div class="container">
       <h2 class="txt-section">Hey I'm Brendan</h2>
-      <p class="txt-body buffer">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work at various companies.  I post my WIPs and POCs on <a class="link-body" href="" alt="" no-referrer no-opener>Dribbble</a> and <a class="link-body" href="" alt="" no-referrer no-opener>Codepen</a> so be sure to follow me there.</p>
+      <p class="txt-body buffer">Welcome to my site!  Here you can learn more about me, my process, and the impact of my work at various companies.  I post my WIPs and POCs on <a class="link-body" href="https://dribbble.com/brendanbax" target="_blank" rel="noopener noreferrer">Dribbble</a> and <a class="link-body" href="https://codepen.io/brendanbax" target="_blank" rel="noopener noreferrer">Codepen</a> so be sure to follow me there.</p>
       <!-- Occasionally I blog on <a class="link-body" href="" alt="" no-referrer no-opener>Medium</a>, as well. -->
       <p class="txt-body">Thanks for stopping by!</p>
       <p>-Brendan</p>

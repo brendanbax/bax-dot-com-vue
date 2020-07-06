@@ -2,13 +2,13 @@
 status: "publish"
 type: "project"
 path: "/projects/continuum"
-title: "Mercy Virtual AtHome Lite"
+title: "Continuum"
 date: "2020-02-17"
 tags: ["mobile app", "react native", "ux", "ui", "design", "healthcare"]
 teaser: "Learn how I simplified telemedicine access during COVID-19 by designing a simple, point-to-point video solution enabling 3,000+ video visits a day."
 ---
 
-<h3 class="txt-title">Context</h3>
+### Context
 
 Continuum is a telehealth platform built around quality, continuous care that is readily available when patients need it. There are two parts to the platform. A web application for care teams comprised of doctors and nurses who manage patients remotely, and a mobile application for patients and patient care givers (parents, loved ones, home health workers). The word _continuum_ means a continuous sequence, and this product aims to solve the issue of fractured patient care between home, hospital, and specialist visits.
 
@@ -18,7 +18,7 @@ Through a truly remarkable series of events, leadership dropped the platform com
 
 New leadership was brought in, a new vision was cast, and a new line of business was contacted regarding our platform and how it might benefit their patients. Work began in early January 2020 on revisions to the mobile app, rebuilding it from the ground up as a hybrid app for iOS and Android - enabling a new group of patients to interface with their care teams on mobile.
 
-<h3 class="txt-title">My Work</h3>
+### My Work
 
 As I mentioned before, my role was as a hybrid designer and developer. Early on my contributions were to the web experiences for the care teams at the hospitals. The app was written in Vue.js, which I had never used, so I worked to become well-versed in the framework to contribute to the codebase.
 
@@ -40,7 +40,7 @@ I worked to cast an MVP vision of the app using Sketch, iterating over designs w
 
 ![Branding](/continuum/00-LogoDesign.png)
 
-<h3 class="txt-title">Challenges</h3>
+### Challenges
 
 If you've made it this far, you can start to see the challenges everywhere. One of the most obvious ones was the platform itself. We inherited an existing product, purpose built for a specific line of business, and conceived as a copy of another existing product in use by the care teams. There was no MVP or clear vision guiding the apps, it was originally a copy / paste effort to reduce a financial dependency.
 
@@ -54,7 +54,7 @@ Another challenge I faced was balancing my time between UX Design, product visio
 
 An unforeseen challenge that crept up was around defining **good** UX. The company had limited experience shipping consumer applications - the only other one being Joy, from the previous development team. I found it hard to settle for subpar experiences in the app and would constantly champion for higher standards. The assumption that we could ship a mediocre product and "fix it up later" didn't sit well with me, as the track record here has shown that you may never get that chance.
 
-<h3 class="txt-title">Outcomes</h3>
+### Outcomes
 
 By applying product design thinking, I helped create a better understanding of the problem space for the team.
 

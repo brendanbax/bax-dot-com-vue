@@ -8,11 +8,11 @@ tags: ["mobile app", "iOS", "ui", "ux", "security", "coolfire"]
 teaser: "I helped create an enhanced situational awareness platform that puts actionable data in the right hands, at the right time."
 ---
 
-<h3 class="txt-title">Context</h3>
+### Context
 
 At Coolfire we partnered with a high-level security group on a new facial recognition and persons of interest management tool. The product had 2 key parts, the first was a web application for users at a regional security hub that enabled data entry and people management. The second part was a mobile app used by field teams to ID and respond to potential security threats. The product was built on top of Coolfire's propriety _Ronin_ platform.
 
-<h3 class="txt-title">Process</h3>
+### Process
 
 In a perfect world I would have sought to understand the client's mission and goals with the product, worked to understand the users and their current struggles, and gotten more context about how the apps would be used in the field. Unfortunately, that was not possible given some constraints around both the sensitive nature of the client and some organizational issues within our company. So I did these things instead...
 
@@ -38,7 +38,7 @@ Surprisingly, this was a huge help because the constraints of mobile meant we **
 
 I liked it. Team liked it. Tech lead and client liked it. We were in business. I put together a pretty robust set of screens for mobile, ported them to iPad and tweaked the layout some, then finally spread the love to web and the team went to work.
 
-<h3 class="txt-title">Challenges</h3>
+### Challenges
 
 As noted above there were some organizational challenges. We had some differing views on UX and design, and my (non-existent) access to the client was a real hurdle. But, we worked through it and delivered a valuable piece of software that is core to the client's new digital business arm. Before we finished they had already signed on a new VIP to use the platform.
 
@@ -48,11 +48,11 @@ A more specific challenge to this product was the concept of sharing information
 
 Sharing POI data is a big no no for most of the users, who were ex special forces and naturally untrusting. It was my job to phrase it in such a way that made it crystal clear what information **WOULD** and **WOULD NOT** be shared. I used custom illustrations and a "stepper" view of the process to clearly articulate what sharing POI data and camera networks meant. I then helped tell that story by showcasing a marketplace where users could get the benefits of someone else doing this - building some empathy to the cause and highlighting a potentially lucrative point of sale within the app.
 
-<h3 class="txt-title">Outcomes</h3>
+### Outcomes
 
 I designed the web and mobile product experiences and worked closely with the development team to iterate through different features. We collaborated to overcome complexities as more features started shipping and delivered a great digital solution for our client's new line of business. It was great working on an iPhone and iPad app which made it to the app store. I also helped the improve the client's branding by developing the redlyst logo, which they loved and trademarked. You can learn more about redlyst <a class="txt-link" href="https://www.redlyst.com" target="_blank">here</a>, and find the app on the <a class="txt-link" href="https://apps.apple.com/tt/app/redlyst/id1470186808" target="_blank">app store</a>.
 
-<h3 class="txt-title">Visuals</h3>
+### Visuals
 
 These are some of the design mocks for iOS, all of the photos and data are fake - these aren't real security threats.
 
