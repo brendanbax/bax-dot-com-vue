@@ -115,3 +115,9 @@ footer {
   }
 }
 </style>
+
+<style>
+.theme-earth footer p {
+  color: black;
+}
+</style>
