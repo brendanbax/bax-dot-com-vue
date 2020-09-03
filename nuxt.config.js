@@ -16,7 +16,11 @@ export default {
   css: ['~/assets/animation.css'],
   plugins: [],
   components: true,
-  buildModules: [],
+  buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-102240295-1'
+    }]
+  ],
   modules: [
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
