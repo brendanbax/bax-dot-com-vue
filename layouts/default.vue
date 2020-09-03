@@ -1,5 +1,5 @@
 <template>
-  <div :class="theme">
+  <div :class="theme" class="page">
     <NavBar @swap="swapTheme" />
     <Nuxt class="dynamic"/>
     <FootBar />
@@ -164,6 +164,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--fg);
+}
+.page {
+  background-color: var(--bg);
 }
 /* Typography */
 .txt-section {

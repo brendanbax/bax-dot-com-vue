@@ -25,7 +25,6 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: var(--nav-height);
   padding: 6rem 3rem;
   min-height: 50vh;
 }
