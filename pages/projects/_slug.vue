@@ -138,4 +138,11 @@ export default {
   max-width: 1200px;
   width: 100%;
 }
+.content ol {
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
+}
+.content li {
+  line-height: 2.5rem;
+}
 </style>

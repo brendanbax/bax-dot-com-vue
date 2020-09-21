@@ -16,7 +16,7 @@ This project included designs for the public website, the developer dashboard (n
 
 ### Challenges
 
-The public website was challenging because I had to account for two key personas.  The first was a *Technology VP*, somebody in a leadership position looking to save time, money, or both build their next application.  This persona was looking for detailed information about pricing, platform value, time and cost savings, and how the platform scales.  I worked closely with some sales teammates to understand their existing clients and what information is often requested to close the deals.
+The public website was challenging because I had to account for two key personas.  The first was a *Technology VP*, somebody in a leadership position looking to save time, money, or both while building their next application.  This persona was looking for detailed information about pricing, platform value, time and cost savings, and how the platform scales.  I worked closely with some sales teammates to understand their existing clients and what information is often requested to close the deals.
 
 The other persona was a *Developer*, the boots on the ground actually using the platform to build things.  They were looking for documentation about specific features, tutorials to get started, and flexibility in how they could use the tools.  To understand the developer persona more I interviewed our in-house teams, seeking to understand how they evaluate and use different technology for their own projects.
 
