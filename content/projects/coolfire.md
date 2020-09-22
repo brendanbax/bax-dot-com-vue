@@ -78,7 +78,7 @@ Part of selling the platform was including an instance of how it could be used. 
 
 Ronin Chat is an open-source sample application built on top of the Ronin™️ platform. It was designed to showcase specific Ronin features including the Ronin Message service, UserGroups, SocketIO, and Ronin Sessions.
 
-You can clone this open source application [here](https://github.com/coolfiresolutions/ronin-chat-android)
+You can clone this open source application <a class="link-body" href="https://github.com/coolfiresolutions/ronin-chat-android" target="_blank" rel="noopener noreferrer">here</a>.
 
 ![chat1](/coolfire/chat1.png)
 ![chat2](/coolfire/chat2.png)
