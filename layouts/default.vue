@@ -1,7 +1,7 @@
 <template>
   <div :class="theme" class="page">
     <NavBar @swap="swapTheme" />
-    <Nuxt class="dynamic"/>
+    <Nuxt class="dynamic" />
     <FootBar />
   </div>
 </template>
@@ -9,6 +9,7 @@
 <script>
 import NavBar from '@/components/NavBar'
 import FootBar from '@/components/FootBar'
+import { mapGetters, mapActions } from 'vuex'
 
 export default {
   components: {
@@ -19,10 +20,34 @@ export default {
     return {
       theme: 'theme-base',
       themeBank: ['theme-base','theme-seafoam', 'theme-vintage', 'theme-terminal', 'theme-earth'],
+      width: null,
+      height: null
+    }
+  },
+  computed: {
+    isLandscape() {
+      if (this.width > this.height) {
+        return true
+      } else {
+        return false
+      }
+    },
+    navigation() {
+      if (this.isLandscape && this.width >= 768) {
+        // landscape views on tablet++ get vert nav
+        return 'NavVert'
+      } else if (!this.isLandscape && this.width >= 640) {
+        // portrait views on tablet++ get horz nav
+        return 'NavHorz'
+      } else {
+        // anything smaller is considered mobile
+        return 'NavMobile'
+      }
     }
   },
   methods: {
     swapTheme() {
+      // TODO: move all this logic to the store...
       let currentTheme = this.themeBank.findIndex((el) => el === this.theme);
       currentTheme += 1;
       if (currentTheme >= this.themeBank.length) {
@@ -33,6 +58,14 @@ export default {
     }
   },
   mounted() {
+    this.width = window.innerWidth
+    this.height = window.innerHeight
+    
+    window.addEventListener('resize', () => {
+      this.width = window.innerWidth
+      this.height = window.innerHeight
+    })
+
     let savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
       this.theme = savedTheme;
@@ -45,6 +78,12 @@ export default {
         this.theme = 'theme-base';
       }
     }
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', () => {
+      this.width = window.innerWidth
+      this.height = window.innerHeight
+    })
   }
 }
 </script>
@@ -189,6 +228,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 .txt-center {
   text-align: center;
+}
+.txt-max-width {
+  margin: 0 auto;
+  max-width: 64ch;
 }
 .buffer {
   margin: 1rem 0 1.5rem;

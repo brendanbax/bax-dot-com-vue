@@ -29,7 +29,7 @@
           <!-- <p>Medium</p> -->
         </div>
       </div>
-      <p class="txt-micro t-fg">&copy; {{ time }} Brendan Bax.  Built with Vue.js, Nuxt.js, and hosted on Netlify.</p>
+      <p class="txt-micro t-fg">&copy; {{ time }} Brendan Bax.  Designed and built by me.</p>
     </div>
   </footer>
 </template>

@@ -113,7 +113,7 @@ nav {
   left: 3rem;
   z-index: 0;
   opacity: 1;
-  transition: left 200ms 500ms, opacity 200ms 500ms;
+  transition: left 200ms 350ms, opacity 200ms 350ms;
 }
 .solid {
   background-color: var(--t-dk);

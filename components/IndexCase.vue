@@ -38,8 +38,21 @@
 #case {
   background-color: var(--fg);
   color: var(--bg);
-  padding: 6rem 3rem;
+  padding: 8rem 3rem 6rem;
   min-height: 50vh;
+  position: relative;
+  z-index: 1;
+}
+#case::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 20vh solid var(--bg);
+  border-right: 100vw solid transparent;
+  z-index: -1;
 }
 .section {
   display: flex;
