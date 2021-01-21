@@ -29,7 +29,7 @@
           <!-- <p>Medium</p> -->
         </div>
       </div>
-      <p class="txt-micro t-fg">&copy; {{ time }} Brendan Bax.  Designed and built by me.</p>
+      <p class="txt-micro t-fg">&copy; {{ time }} Designed and built by Brendan Bax.</p>
     </div>
   </footer>
 </template>

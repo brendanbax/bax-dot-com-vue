@@ -229,6 +229,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 .txt-center {
   text-align: center;
 }
+@media (max-width: 480px) {
+  .txt-shadow {
+    text-shadow: 0 1px 0 var(--fg), 1px 0 0 var(--fg), -1px 0 0 var(--fg);
+  }
+}
 .txt-max-width {
   margin: 0 auto;
   max-width: 64ch;

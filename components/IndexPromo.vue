@@ -1,7 +1,9 @@
 <template>
   <div id="about">
-    <h2 class="txt-center txt-section">A Bit About Me</h2>
-    <p class="txt-body txt-center txt-max-width">I've been truly blessed to work with some crazy talented people.  Genious developers, rockstar designers, inspiring leaders, and patient mentors.  I will be forever grateful for the lessons I was able to learn working alongside such fine people.  These are some of their kind words about me.</p>
+    <div class="text-container">
+      <h2 class="txt-center txt-section">A Bit About Me</h2>
+      <p class="txt-body txt-center txt-max-width">I've been truly blessed to work with some crazy talented people.  Genious developers, rockstar designers, inspiring leaders, and patient mentors.  I will be forever grateful for the lessons I was able to learn working alongside such fine people.  These are some of their kind words about me.</p>
+    </div>
     <div class="container">
       <div v-for="(promo, index) in promotions" :key="'p' + index" class="promo-item" :id="'c-' + index">
         <p class="txt-body">{{ promo.content }}</p>
@@ -77,12 +79,27 @@
   padding-top: 3rem;
   border-top: .5rem dotted var(--t-dk);
 }
+.text-container {
+  margin: 0 auto;
+  padding: 0 3rem;
+  max-width: 64ch;
+}
+@media (max-width: 420px) {
+  .text-container {
+    padding: 0 1rem;
+  }
+}
 .container {
   margin: 3rem auto 0;
   padding: 0 3rem;
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 420px) {
+  .container {
+    padding: 0 1rem;
+  }
 }
 .promo-item {
   align-self: flex-start;

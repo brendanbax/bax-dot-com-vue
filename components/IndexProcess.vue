@@ -1,7 +1,7 @@
 <template>
   <div id="process">
     <h2 class="txt-center txt-section t-bg">My Process</h2>
-    <p class="txt-body txt-center t-bg">Not always in this order</p>
+    <p class="txt-body txt-center txt-shadow t-bg">Not always in this order</p>
     <div class="grid">
       <div
         v-for="(step, index) in process"
