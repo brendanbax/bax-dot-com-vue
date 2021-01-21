@@ -112,7 +112,7 @@
 }
 @media (min-width: 840px) {
   .promo-item {
-    flex-basis: calc(50% - 2rem);
+    flex-basis: calc(50% - 1rem);
     margin-bottom: -1rem;
   }
   .promo-item:nth-child(even) {
